@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "From Recording Studio at Shawn's House"
+	title := "Deployed from Westin" 
 
 	from := ""
 	if r.URL != nil {
